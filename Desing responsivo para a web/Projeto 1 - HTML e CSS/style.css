@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+body {    
+    padding: 0;
+    background-color: brown;
+}
+.container-fluid {
+    background-color: aqua;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-family: Lobster, Monospace;
+}
+p {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+header {
+    padding: 10px;
+    border: 1px solid palevioletred;
+}
+
+section {
+    padding: 2px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 5px solid coral;
+}
+
+ul, ol{
+    width: 10vw;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
