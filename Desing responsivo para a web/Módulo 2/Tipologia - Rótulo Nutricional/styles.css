@@ -1,0 +1,21 @@
+* {
+    /* Padrão de */
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open-sans", sans-serif;
+}
+
+.label {
+    width: 270px;
+
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 0 7px;
+}
+

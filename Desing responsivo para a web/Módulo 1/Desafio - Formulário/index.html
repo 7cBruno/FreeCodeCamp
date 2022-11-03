@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 id="title">Formulário de Pesquisa</h1>
+        </header>
+
+        <main>
+            <p id="description">Descrição do Formulário</p>
+            <form id="survey-form">
+                <fieldset>
+                    <label for="name" id="name-label">
+                        Nome:
+                        <input type="text" name="nome" id="name" pattern="[A-Za-z]{8,}" title="Apenas letras"
+                            placeholder="Nome Completo" required />
+                    </label>
+                    <label for="email" id="email-label">
+                        Email:
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    </label>
+                    <label for="number" id="number-label">
+                        Idade:
+                        <input type="number" name="idade" id="number" min="10" max="120" placeholder="Idade">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <label>Lista Suspensa
+                        <select name="dropdown" id="dropdown">
+                            <option value="valor1">Teste</option>
+                            <option value="valor2">Teste</option>
+                        </select>
+                    </label>
+
+                    <label for="radio1">
+                        <input type="radio" name="radio" value="opcao1" id="radio1"> Valor1
+                    </label>
+                    <label for="radio2">
+                        <input type="radio" name="radio" value="opcao2" id="radio2"> Valor2
+                    </label>
+                    <label for="radio3">
+                        <input type="radio" name="radio" value="opcao3" id="radio3"> Valor3
+                    </label>
+
+                    <label for="check1">
+                        <input type="checkbox" id="check1"  name="checkbox1" value="Valor1"> Valor1
+                    </label>
+                    <label for="check2">
+                        <input type="checkbox" id="check1" name="checkbox2" value="Valor2"> Valor2
+                    </label>
+                    <label for="check3">
+                        <input type="checkbox" id="check1" name="checkbox3" value="Valor3"> Valor3
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="sugestoes">Sugestões <textarea name="sugestoes" id="sugestoes" placeholder="Teste" cols="30"
+                            rows="10"></textarea></label>
+                </fieldset>
+
+                <input type="submit" name="submit" value="Submit" id="submit">
+
+            </form>
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>

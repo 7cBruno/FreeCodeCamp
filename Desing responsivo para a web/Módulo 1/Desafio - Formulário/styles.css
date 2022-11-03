@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    
+    margin: 0;
+    
+    background-color: #e7dbff;
+    color: #7d7af0;
+  }
+  
+  #container {
+    width: 75%;
+    max-width: 300px;
+    min-width: 500px;
+    
+    margin: 0 auto;
+    padding-bottom: 2rem
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #b2abf8;
+  }
+  
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    
+    margin: 10px 0;
+  }
+  
