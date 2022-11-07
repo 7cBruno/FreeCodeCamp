@@ -1,0 +1,53 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+header {
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: #1b1b32;
+}
+#logo {
+    /* Largura Máxima da imagem para valores entre 100px e 18vw */
+    width: max(100px, 18vw);
+
+    padding: 0.4rem;
+
+    /* Define as proporções da imagem */
+    aspect-ratio: 35/4;
+
+    background-color: #0a0a23;
+}
+h1 {
+    font-size: min(5vw, 1.2em);
+    color: #f1be32;
+}
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+/* Seletor de todos os elementos dentro de outro */
+nav > ul {
+    display: flex;
+    /* 1ª Forma de exibiçao dos conteúdos: Row (linha), wrap (Agrupar) */
+    flex-flow: row wrap;
+    /* 2ª Alinhamento Horizontal */
+    justify-content: space-evenly;
+    /* 3ª Alinhamento vertical */
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    border-bottom: 4px solid #dfdfe2
+}
